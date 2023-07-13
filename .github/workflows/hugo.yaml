@@ -61,7 +61,7 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --source ./website \
-            --destination ./pulic 
+            --destination ./public 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
