@@ -7,3 +7,6 @@
 [submodule "website/themes/lowkey"]
 	path = website/themes/lowkey
 	url = https://github.com/nixentric/Lowkey-Hugo-Theme.git
+[submodule "website/themes/paper"]
+	path = website/themes/paper
+	url = https://github.com/nanxiaobei/hugo-paper
