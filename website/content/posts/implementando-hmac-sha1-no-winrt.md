@@ -1,5 +1,5 @@
 ---
-title: "Implementando Hmac Sha1 No Winrt"
+title: "Implementando HMAC SHA1 No Winrt"
 date: 2015-12-17T14:57:18+02:00
 ---
 
@@ -36,8 +36,11 @@ private static string HmacSha1(string key, string message)
 ```
 
 Podemos usar algumas strings clássicas como teste neste método:
- `key = “key”`
- `message = “The quick brown fox jumps over the lazy dog”`
- `resultado = de7c9b85b8b78aa6bc8a7a36f70a90701c9db4d9`
+
+```csharp
+key = "key"
+message = "The quick brown fox jumps over the lazy dog"
+resultado = de7c9b85b8b78aa6bc8a7a36f70a90701c9db4d9
+```
 
 Para aprender mais sobre o HMAC-SHA1 clique [aqui](https://pt.wikipedia.org/wiki/HMAC).
